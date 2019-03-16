@@ -353,12 +353,19 @@ body {
 .items:nth-child(3) ul li {
 	padding: 10px 10px 10px 10px;
 }
+
 .items:nth-child(3) br {
 	display: none;
 }
-.items:nth-child(3) br:nth-child(3) {
+
+.items:nth-child(3) br:nth-child(4) {
 	display: block;
 }
+
+.items:nth-child(3) br:nth-child(5) {
+	display: block;
+}
+
 
 .items:nth-child(4) {
 	padding: 30px 20px 30px 10px;
@@ -422,8 +429,7 @@ body {
 }
 
 /****************************************************************              PC              ***************************************************/
-@media (min-width: 978px) and (max-width: 1217px) {
-}
+@media (min-width: 978px) and (max-width: 1217px) {}
 
 /****************************************************************              TABLET              ***********************************************/
 @media (min-width: 768px) and (max-width: 977px) {
@@ -449,12 +455,15 @@ body {
 	.items:nth-child(3) {
 		width: 86%;
 	}
-	.items:nth-child(3) br {
-		display: block;
-	}
+
 	.items:nth-child(3) ul li:nth-child(2) br {
 		display: none;
 	}
+
+	.items:nth-child(3) br:nth-child(3) {
+		display: block;
+	}
+
 	.items:nth-child(4) {
 		padding: 30px 20px 30px 10px;
 		width: 100%;
@@ -546,6 +555,7 @@ body {
 		padding-left: 10px;
 		width: 95%;
 	}
+
 	.items:nth-child(3) br {
 		display: block;
 	}
@@ -639,6 +649,7 @@ body {
 		padding-left: 0px;
 	}
 }
+
 @media (min-width: 467px) and (max-width: 674px) {
 	.items:nth-child(3) ul li:nth-child(2) br {
 		display: block;
