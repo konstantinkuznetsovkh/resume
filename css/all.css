@@ -301,8 +301,8 @@ body {
 }
 
 .foto img {
-	display: block;
-	margin-top: -33px;
+	    margin-top: 28px;
+    transform: scale(1.33,1.33);
 }
 
 .contact {
